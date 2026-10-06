@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "orbitalstrike",
+  "version": "${version}",
+  "name": "Orbital Strike",
+  "description": "Orbital Strike tactical weaponry mod: Nuke & Stab strikes for Minecraft 1.21.1.",
+  "authors": ["OrbitalStrike Team"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.orbitalstrike.mod.OrbitalStrikeMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
