@@ -29,7 +29,7 @@ jobs:
       - name: Build Mod with Gradle
         run: ./gradlew build --no-daemon
 
-      - name: Upload Mod .jar Artifact
+      - name: Upload Mod .zip Artifact
         uses: actions/upload-artifact@v4
         with:
           name: orbital-strike-1.0.0-mc1.21.1
